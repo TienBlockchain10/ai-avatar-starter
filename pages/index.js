@@ -38,7 +38,7 @@ const Home = () => {
       setRetry(0)
     }
 
-    const finalInput = input.replace('aryan','aryanmadhavverma')
+    const finalInput = input.replace('Tien','Tien Nguyen')
 
     const response = await fetch('/api/generate', {
       method: 'POST',
